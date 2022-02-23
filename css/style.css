@@ -5,8 +5,11 @@
 }
 
 #sfondoRed{
-    background-color: red;
-    height: 505px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: 0% 12%;
 }
 
 #sfondoGreen{
@@ -33,3 +36,78 @@
     background-color: brown;
     height: 537px;
 }
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.containerCenter{
+    width: 80%;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+
+
+#logo{
+    width: 25%;
+    float: left;
+    height: 40px
+
+}
+
+#logo img{
+    height: 100%;
+} 
+
+.link{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 35px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+
+.floatRight{
+    width: 25%;
+    float: right;
+    text-align: right;
+    
+   
+}
+
+.button{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 15px;
+    display: inline-block; 
+}
+
+button{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+
+
