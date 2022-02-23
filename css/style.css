@@ -45,7 +45,7 @@
 
 
 .containerCenter{
-    width: 80%;
+    width: 70%;
     margin: 0px auto;
     /* border: 1px solid black; */
     padding: 20px;
@@ -109,5 +109,72 @@ button{
     font-family: 'Montserrat', sans-serif;  
 }
 
+section{
+    width: 34%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+section h1,p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+section h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
 
 
+
+
+.buttonBrowser{
+    height: 60px;
+    width: 400px;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 30px;
+    display: inline-block; 
+    margin-top: 25px;
+}
+
+.buttonDownload{    
+    height: 60px;
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 30px;
+    display: inline-block; 
+    margin-top: 25px;
+}
+
+.white{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;  
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.black{
+    border: 0;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;  
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#arrow{
+    font-size: 25px;
+    
+} 
