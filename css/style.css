@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sfondoRed{
+    background-color: red;
+    height: 505px;
+}
+
+#sfondoGreen{
+    background-color: green;
+    height: 597px;
+}
+
+#sfondoBlue{
+    background-color: blue;
+    height: 554px;
+}
+
+#sfondoOrange{
+    background-color: orange;
+    height: 517px;
+}
+
+#sfondoViolet{
+    background-color: violet;
+    height: 964px;
+}
+
+#sfondoBrown{
+    background-color: brown;
+    height: 537px;
+}
