@@ -13,23 +13,20 @@
 }
 
 #sfondoGreen{
-    background-color: green;
-    height: 597px;
+    background-color: white;
+
 }
 
 #sfondoBlue{
-    background-color: blue;
-    height: 554px;
+    background-color: #F6F6F6;
 }
 
 #sfondoOrange{
-    background-color: orange;
-    height: 517px;
+    background-color: white;
 }
 
 #sfondoViolet{
-    background-color: violet;
-    height: 964px;
+    background-color: #F6F6F6;
 }
 
 #sfondoBrown{
@@ -45,7 +42,7 @@
 
 
 .containerCenter{
-    width: 70%;
+    width: 60%;
     margin: 0px auto;
     /* border: 1px solid black; */
     padding: 20px;
@@ -54,7 +51,7 @@
 
 
 #logo{
-    width: 25%;
+    width: 10%;
     float: left;
     height: 40px
 
@@ -66,7 +63,7 @@
 
 .link{
     float: left;
-    width: 50%;
+    width: 80%;
     text-align: center;
     padding: 5px;
 }
@@ -85,7 +82,7 @@
 
 
 .floatRight{
-    width: 25%;
+    width: 10%;
     float: right;
     text-align: right;
     
@@ -178,3 +175,90 @@ section h1{
     font-size: 25px;
     
 } 
+
+
+
+.left{
+    float: left;
+    width: 70%;
+    /* border: 3px solid black; */
+    
+}
+
+.right{
+    float: left;
+    width: 30%;
+    /* border: 3px solid black; */
+}
+
+.containerCenter2{
+    width: 60%;
+    margin: 0px auto;
+    /* border: 3px solid black; */
+}
+
+.margineSvg{
+    margin-top: 105px;
+    margin-left: 30px;
+}
+
+.testo{
+    margin-top: 130px;
+    /* width: 300px; */
+}
+
+.testo h2{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}   
+
+.testo p{
+    color: black;
+    text-align: left;
+    margin-top: 5px;
+}
+
+/* .onda{
+    background-image: url(../img/wave.svg);
+    height: 200px;
+    background-color: white;
+} */
+
+
+
+
+.secondoTitolo h2, p{
+    text-align: center;
+}
+.secondoTitolo p{
+    text-align: center;
+}
+
+.bigSvg img{
+    width: 100%;
+}
+
+
+.titoloStellato{
+    text-align: center;
+}
+
+.testoStella{
+    color: black;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    background-image: url(../img/stars.svg);
+    background-position: 350px -10px;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.color{
+    background-color: lightblue;
+}
